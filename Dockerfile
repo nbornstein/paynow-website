@@ -14,7 +14,11 @@
 #   limitations under the License.
 ##############################################################################
 
-FROM node:19
+FROM registry.suse.com/bci/nodejs:18
+
+LABEL "org.opencontainers.image.source"="https://github.com/mfriesenegger/paynow-website"
+LABEL "org.opencontainers.image.description"="SLE BCI Pay Now Website"
+LABEL "org.opencontainers.image.licenses"="Apache-2.0"
 
 # Create app directory
 WORKDIR /app
