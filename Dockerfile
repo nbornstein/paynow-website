@@ -16,7 +16,7 @@
 
 FROM registry.suse.com/bci/nodejs:18
 
-LABEL "org.opencontainers.image.source"="https://github.com/mfriesenegger/paynow-website"
+LABEL "org.opencontainers.image.source"="https://github.com/nbornstein/paynow-website"
 LABEL "org.opencontainers.image.description"="SLE BCI Pay Now Website"
 LABEL "org.opencontainers.image.licenses"="Apache-2.0"
 
