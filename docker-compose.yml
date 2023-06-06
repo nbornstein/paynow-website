@@ -1,6 +1,6 @@
 services:
   paynow:
-    image: ghcr.io/mfriesenegger/slebci-paynow-website@sha256:90e28fdd0a7415d2db5942ddb1a54b7be0ddb79fd58ee50f02d0771226a77a42
+    image: ghcr.io/nbornstein/slebci-paynow-website@sha256:90e28fdd0a7415d2db5942ddb1a54b7be0ddb79fd58ee50f02d0771226a77a42
     ports:
       - "8080:8080"
       - "8443:8443"
